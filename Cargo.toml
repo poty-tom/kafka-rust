@@ -13,3 +13,6 @@ tokio = { version = "1.37.0", features = ["full"] }
 tracing = { version = "0.1.37", features = ["log"] }
 tracing-subscriber = "0.3.18"
 anyhow = "1.0.75"
+rdkafka = "0.25" # { version = "0.25", features = ["cmake-build"] }
+serde = { version = "1.0.174", features = ["derive"] }
+serde_json = "1.0.105"
